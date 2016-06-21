@@ -1,0 +1,29 @@
+@font-face {
+		  font-family: 'Roboto';
+		  font-style: normal;
+		  font-weight: 300;
+		  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+	
+		}
+
+		#loader {
+				color: white;
+				top: 50%; 
+           		left: 50%;
+				position: fixed;
+				font-size: 12px;
+				font-family: Roboto;
+				font-weight: regular;
+				letter-spacing: 0.3em;
+		}
+
+
+		#wrapper {
+			opacity: 0.0;
+		}
+
+		body {
+		  margin: 0px;
+		  overflow: hidden;
+		}
+
